@@ -37,4 +37,5 @@ int main() {
     for (int i = 0; i < ARR_SIZE; i ++) {
         printf("%" PRId64 ", ", dst[i]);
     }
+    printf("\n");
 }
