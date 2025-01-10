@@ -1,8 +1,9 @@
 // Landon Davidson
+// landond@uw.edu
 #include <inttypes.h>
 #include <stdio.h>
 
-// Takes an array and array's size as input and performs one pass of an insertion sort
+// Takes an array and the array's size as input and performs one pass of an insertion sort
 void InsertSort(int64_t arr[], int size) {
     // Start at back of array and repeatedly swap if the preceding element is smaller,
     // otherwise return since the new element is fully sorted
